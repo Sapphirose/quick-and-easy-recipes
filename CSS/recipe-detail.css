@@ -1,0 +1,139 @@
+/* BANNER */
+.recipe-detail-banner {
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    height: 100vh;
+    margin-bottom: 50px;
+}
+/* BACKGROUND COLOR */
+.recipe-detail {
+    background-color: #fff;
+}
+
+/* RECIPE TITLE */
+.title {
+    margin: 0 -15px;
+}
+.title p {
+    display: inline-block;
+
+    margin-bottom: 20px;
+    padding: 20px 50px 20px 50px;
+    background-color: #ff2a6b;
+    clip-path: polygon(0 0, 100% 0, 90% 100%, 0 100%);
+
+    color: white;
+    font-weight: 300;
+}
+.title h1 {
+    color: #3c3c3c;
+    font-size: 44px;
+    font-weight: 500;
+}
+.title span {
+    color: #8b8b8b;
+    font-weight: 300;
+}
+.stars-rating {
+    display: flex;
+    flex-flow: row nowrap;
+    margin: 20px 0;
+
+    color: orange;
+}
+#fade {
+    color: #8b8b8b;
+}
+
+/* RECIPE DISCRIPTION */
+.description {
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.ingredients__list {
+    background-color: #f6f6f6;
+}
+.ingredients__list h3 {
+    padding-left: 8px;
+}
+.time {
+    display: inline-block;
+    margin-top: -1rem;
+    margin-left: -1rem;
+    margin-bottom: 30px;
+    padding: 15px 150px 15px 20px;
+    width: 95%;
+
+    background-color: #ff2a6b;
+    clip-path: polygon(0 0, 100% 0, 80% 100%, 0 100%);
+}
+.time p {
+    padding: 5px;
+
+    color: white;
+    font-size: 10px;
+}
+
+/* FORM */
+.form {
+    margin-bottom: 20px;
+}
+
+.form-group {
+    padding-top: 40px;
+    padding-left: 50px;
+}
+
+.form-group__trigger {
+    display: none;
+}
+
+.form-group label {
+    position: relative;
+    font-size: 16px;
+    color: #3c3c3c;
+    display: inline-block;
+}
+
+.form-group label::before {
+    content: "";
+    position: absolute;
+    left: -40px;
+    top: -2px;
+
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    border: 1px solid #8b8b8b;
+
+    background-color: white;
+}
+
+.form-group__trigger:checked + label::before {
+    background-color: #ff2a6b;
+}
+
+.form-group__trigger:checked + label::after {
+    content: "";
+    position: absolute;
+    left: -32px;
+    top: 5px;
+
+    display: inline-block;
+    width: 10px;
+    height: 5px;
+    border-left: 2px solid white;
+    border-bottom: 2px solid white;
+
+    transform: rotate(-45deg);
+}
+/* METHOD */
+.method__steps p {
+    color: #8b8b8b;
+    font-weight: 300;
+    text-align: justify;
+}
+.method__steps h3 {
+    text-align: end;
+}

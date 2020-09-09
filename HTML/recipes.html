@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quick & Easy | Recipes</title>
+    <link rel="shortcut icon" type="image/png" href="/images/logo/favicon.png">
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+        integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+
+    <!-- GOOGLE FONTS -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS LINKS -->
+    <link rel="stylesheet" href="/CSS/main.css">
+    <link rel="stylesheet" href="/CSS/header.css">
+    <link rel="stylesheet" href="/CSS/footer.css">
+    <link rel="stylesheet" href="/CSS/recipes.css">
+
+    <link rel="stylesheet" href="/CSS/Responsive/container.css">
+    <link rel="stylesheet" href="/CSS/Responsive/row.css">
+    <link rel="stylesheet" href="/CSS/Responsive/col.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <!-- PINK TOP BAR -->
+            <section class="header-top">
+                <div class="container">
+                    <div class="header-top-content">
+                        <ul class="header-top-content__social">
+                            <li>
+                                <a href="https://www.pinterest.com" target="_blank"><i class="fab fa-pinterest"></i></a>
+                            </li>
+
+                            <li>
+                                <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                            </li>
+
+                            <li>
+                                <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+                            </li>
+
+                            <li>
+                                <a href="https://www.dribbble.com" target="_blank"><i class="fab fa-dribbble"></i></a>
+                            </li>
+
+                            <li>
+                                <a href="https://www.behance.net" target="_blank"><i class="fab fa-behance"></i></a>
+                            </li>
+
+                            <li>
+                                <a href="https://www.linkedin.com" target="_blank"><i
+                                        class="fab fa-linkedin-in"></i></a>
+                            </li>
+                        </ul>
+                        <div class="header-top-content__account">
+                            <a href="#">Register</a><span>/</span><a href="#">Login</a>
+                        </div>
+                    </div>
+            </section>
+            <!-- END PINK TOP BAR -->
+
+            <!-- WHITE TOP BAR -->
+            <section class="header-bottom">
+                <div class="container">
+                    <div class="header-bottom-content">
+                        <a class="header-bottom-content__logo" href="index.html"><img src="/images/logo/logo.svg"
+                                alt="nordic-coder-logo"></a>
+
+                        <input type="checkbox" name="nav-trigger" id="nav-trigger" class="nav-trigger">
+                        <label for="nav-trigger"><i class="fas fa-bars"></i></label>
+                        <div class="header-bottom-content__search">
+                            <a class="search" href="#"><i class="fas fa-search"></i></a>
+                        </div>
+                        <ul class="header-bottom-content__menu">
+                            <li><a href="/html/index.html">Home</a></li>
+                            <li><a class="active" href="/html/recipes.html">Recipes</a></li>
+                            <li><a href="/html/recipe-detail.html">Recipe Detail</a></li>
+                            <li><a href="/html/about.html">About</a></li>
+                            <li><a href="/html/contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <!-- END WHITE TOP BAR -->
+        </nav>
+    </header>
+
+    <main>
+        <!-- BANNER -->
+        <section class="banner" style="background-image: url(/images/banner/page-top-bg.jpg);">
+            <h1 class="banner__title zoom-in">recipes</h1>
+        </section>
+        <!-- END BANNER -->
+
+        <!-- RECIPES -->
+        <section class="recipes">
+            <div class="container">
+
+                <div class="recipes__line"></div>
+                <h3>Our latest recipes</h3>
+
+                <ul class="recipes__list row">
+
+                    <li class="col-12 col-md-6 col-lg-4">
+                        <img src="/images/recipes/1.jpg" alt="traditional pizza">
+                        <div class="recipes-rating">
+                            <h4>Traditional Neapolitan Pizza</h4>
+                            <ul class="stars">
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i id="fade" class="fas fa-star"></i></li>
+                            </ul>
+                        </div>
+                    </li>
+
+                    <li class="col-12 col-md-6 col-lg-4">
+                        <img src="/images/recipes/2.jpg" alt="italian homemade pasta">
+                        <div class="recipes-rating">
+                            <h4>Italian Homemade Pasta</h4>
+                            <ul class="stars">
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i id="fade" class="fas fa-star"></i></li>
+                                <li><i id="fade" class="fas fa-star"></i></li>
+                            </ul>
+                        </div>
+                    </li>
+
+                    <li class="col-12 col-md-6 col-lg-4">
+                        <img src="/images/recipes/3.jpg" alt="fruit tart">
+                        <div class="recipes-rating">
+                            <h4>Summer Fruit Tart</h4>
+                            <ul class="stars">
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i id="fade" class="fas fa-star"></i></li>
+                                <li><i id="fade" class="fas fa-star"></i></li>
+                                <li><i id="fade" class="fas fa-star"></i></li>
+                            </ul>
+                        </div>
+                    </li>
+
+                    <li class="col-12 col-md-6 col-lg-4">
+                        <img src="/images/recipes/4.jpg" alt=" spaghetti alle vongole">
+                        <div class="recipes-rating">
+                            <h4> Spaghetti Alle Vongole</h4>
+                            <ul class="stars">
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                            </ul>
+                        </div>
+                    </li>
+
+                    <li class="col-12 col-md-6 col-lg-4">
+                        <img src="/images/recipes/5.jpg" alt="orange crème brûlée">
+                        <div class="recipes-rating">
+                            <h4>Bitter Orange Crème Brûlée</h4>
+                            <ul class="stars">
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i id="fade" class="fas fa-star"></i></li>
+                            </ul>
+                        </div>
+                    </li>
+
+                    <li class="col-12 col-md-6 col-lg-4">
+                        <img src="/images/recipes/6.jpg" alt="lamb chops">
+                        <div class="recipes-rating">
+                            <h4>Grilled Lamb Chops</h4>
+                            <ul class="stars">
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i id="fade" class="fas fa-star"></i></li>
+                                <li><i id="fade" class="fas fa-star"></i></li>
+                            </ul>
+                        </div>
+                    </li>
+
+                    <li class="col-12 col-md-6 col-lg-4">
+                        <img src="/images/recipes/7.jpg" alt="greek salad">
+                        <div class="recipes-rating">
+                            <h4>Greek Green Salad</h4>
+                            <ul class="stars">
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                            </ul>
+                        </div>
+                    </li>
+
+                    <li class="col-12 col-md-6 col-lg-4">
+                        <img src="/images/recipes/8.jpg" alt="pan-fried salmon">
+                        <div class="recipes-rating">
+                            <h4>Pan-fried Salmon Veggie</h4>
+                            <ul class="stars">
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i id="fade" class="fas fa-star"></i></li>
+                                <li><i id="fade" class="fas fa-star"></i></li>
+                            </ul>
+                        </div>
+                    </li>
+
+                    <li class="col-12 col-md-6 col-lg-4">
+                        <img src="/images/recipes/9.jpg" alt="grilled corn">
+                        <div class="recipes-rating">
+                            <h4>Grilled Corn Herbs</h4>
+                            <ul class="stars">
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                            </ul>
+                        </div>
+                    </li>
+
+                    <li class="col-12 col-md-6 col-lg-4">
+                        <img src="/images/recipes/10.jpg" alt="steak">
+                        <div class="recipes-rating">
+                            <h4>Epic Rib-eye Steak</h4>
+                            <ul class="stars">
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                            </ul>
+                        </div>
+                    </li>
+
+                    <li class="col-12 col-md-6 col-lg-4">
+                        <img src="/images/recipes/11.jpg" alt="bruschetta">
+                        <div class="recipes-rating">
+                            <h4>Tomato Basil Bruschetta</h4>
+                            <ul class="stars">
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                            </ul>
+                        </div>
+                    </li>
+
+                    <li class="col-12 col-md-6 col-lg-4">
+                        <img src="/images/recipes/12.jpg" alt="miso salmon">
+                        <div class="recipes-rating">
+                            <h4>Japanese Miso Salmon</h4>
+                            <ul class="stars">
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i id="fade" class="fas fa-star"></i></li>
+                                <li><i id="fade" class="fas fa-star"></i></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+                <!-- END RECIPES RATING -->
+
+                <!-- PAGES -->
+                <div class="pages-box">
+                    <div class="pages-box__active">
+                        <a>01</a>
+                    </div>
+                    <div class="pages-box__inactive">
+                        <a>02</a>
+                    </div>
+                    <div class="pages-box__inactive">
+                        <a>03</a>
+                    </div>
+                </div>
+            </div>
+            <!-- END PAGES -->
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer style="background-image: url(/images/banner/footer-bg.jpg);">
+        <div class="container">
+            <div class="footer-content row">
+                <div class="footer-left col-12 col-sm-12 col-md-4 col-lg-4">
+                    <a href="index.html" class="footer-left__logo"><img src="/images/logo/logo.svg"
+                            alt="nordic-coder-logo"></a>
+                    <ul class="footer-left__social">
+                        <li>
+                            <a href="https://www.pinterest.com" target="_blank"><i class="fab fa-pinterest"></i></a>
+                        </li>
+
+                        <li>
+                            <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        </li>
+
+                        <li>
+                            <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+                        </li>
+
+                        <li>
+                            <a href="https://www.dribbble.com" target="_blank"><i class="fab fa-dribbble"></i></a>
+                        </li>
+
+                        <li>
+                            <a href="https://www.behance.net" target="_blank"><i class="fab fa-behance"></i></a>
+                        </li>
+
+                        <li>
+                            <a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer-right col-12 col-sm-12 col-md-8 col-lg-8">
+                    <ul class="footer-right__menu">
+                        <li><a href="/HTML/index.html">Home</a></li>
+                        <li><a class="active" href="/HTML/recipes.html">Recipes</a></li>
+                        <li><a href="/HTML/recipe-detail.html">Recipe Detail</a></li>
+                        <li><a href="/HTML/about.html">About</a></li>
+                        <li><a href="/HTML/contact.html">Contact</a></li>
+                    </ul>
+                    <p class="footer-right__text">Copyright © 2020 All rights reserved | This template is made with 🐱
+                        by <a href="https://colorlib.com" target="_blank">Colorlib</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- END FOOTER -->
